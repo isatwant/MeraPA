@@ -1,3 +1,52 @@
-*{margin:0;}
 
-p{font-size: large;}
+*{
+    box-sizing: border-box;
+    margin: 0;
+     
+}
+.pa_header{
+    border: 1px solid black;
+    padding: 5px; 
+}
+.pa_logo{
+    font-size: 6vh;
+}
+.log_bar{
+    border: 1px solid black;
+    padding: 15px;
+    width:17%;
+    height: 85vh;
+    float: left;
+}
+.log_bar_hide_button img{
+    height: 25px;
+    width: 25px;
+    float: right;
+    cursor: pointer;
+    
+}
+.log_bar_show_button img{
+    height: 25px;
+    width: 25px;
+    float: left;
+    cursor: pointer;
+
+   
+}
+.chat_area{
+    border: 1px solid black;
+    padding: 15px;
+    width: 83%;
+    height: 65vh;
+    float: left;
+}
+.chat_result{
+    text-align: center;
+}
+.prompt_area{
+    border: 1px solid black;
+    padding: 15px;
+    width: 83%;
+    height: 20vh;
+    float: left;
+}
